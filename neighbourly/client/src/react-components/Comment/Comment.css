@@ -1,0 +1,65 @@
+.posterComment {
+    border-bottom: 2px solid rgba(199, 84, 136);
+    background-color: rgb(179, 230, 204);
+    position: relative;
+    min-height: 110px;
+}
+
+.commentSection {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    min-height: 100px;
+}
+
+.commentMain {
+    display: block;
+    position: relative;
+    min-height: 40px;
+    /* vertical-align: middle; */
+    border-bottom: 1px solid rgba(199, 84, 136);
+    background-color: rgb(255, 206, 217);
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.commenterName {
+    display: table-cell;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    max-width: 70px;
+    min-width: 70px;
+    overflow: hidden;
+    font-size: 1vw;
+    min-height: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    overflow: auto;
+    vertical-align: middle;
+    background-color: rgb(179, 230, 204);
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 0.5px solid rgb(57, 172, 113);
+    border-top: 0.5px solid rgb(57, 172, 113);
+}
+
+.commentContent {
+    display: table-cell;
+    padding: 10px 10px 30px 10px;
+    text-align: left;
+    min-height: 40px;
+    vertical-align: middle;
+}
+
+.commentDate {
+    display: table-cell;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+}
+
+.commentDate.report {
+    display: table-cell;
+    position: absolute;
+    bottom: 10px;
+    right: 130px;
+}

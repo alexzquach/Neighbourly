@@ -1,0 +1,172 @@
+.inputTextBox {
+    padding: 12px 20px;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitButton {
+    border-radius: 4px;
+    background: lightgray;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.4s;
+    cursor: pointer;
+    display: block;
+    transition: 0.4s;
+    right: -40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 3px 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 35px;
+}
+
+.submitButton:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submitButton:hover {
+    padding-right: 8px;
+    color: white;
+    background-color: rgba(62, 130, 104);
+}
+
+.submitButton:hover:after {
+    opacity: 1;
+    right: 0;
+}
+
+.loginRegButtonGroup {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.loginRegButton {
+    right: 50px;
+    font-style: oblique;
+    vertical-align: middle;
+    background: lightgrey;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 5px 5px 10px;
+    box-sizing: border-box;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginRegButton:hover {
+    color: white;
+    background-color: rgba(199, 84, 136);
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginRegButton:active:hover {
+    transition: 0s;
+    background-color: rgba(158, 63, 106);
+}
+
+.loginRegModalButton {
+    border-radius: 4px;
+    background: rgba(232, 179, 203);
+    border: none;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    transition: all 0.4s;
+    cursor: pointer;
+    /* display: inline-block; */
+    transition: 0.4s;
+    /* right: -40px; */
+    /* position: relative; */
+    margin-top: -40px;
+    margin-right: 10px;
+    /* float: right; */
+    padding: 3px 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+}
+
+.loginRegModalButton:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.loginRegModalButton:hover {
+    padding-right: 8px;
+    color: white;
+    background: rgba(199, 84, 136);
+}
+
+.loginRegModalButton:hover:after {
+    opacity: 1;
+    right: 0;
+}
+
+.userInfoSection {
+    float: right;
+    /* display: inline-block; */
+    margin-right: -60px;
+    vertical-align: middle;
+}
+
+.generalUserButton {
+    border-radius: 4px;
+    background: rgba(232, 179, 203);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-right: 10px;
+    padding: 3px 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 80px;
+    border-radius: 2px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 15px;
+    transition: all 0.2s;
+}
+
+.generalUserButton:hover {
+    color: white;
+    background-color: rgba(199, 84, 136);
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputTextGroup {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*
+light green: rgb(127, 245, 200)
+middle green: rgb(79,189,147)
+dark green: rgb(62, 130, 104)
+light pink: rgb(232, 179, 203)
+dark pink: rgb(199, 84, 136)
+*/
+
+section {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 37px;
+    /* background-image: linear-gradient(to left, lightgray, rgb(255,206,217)); */
+    background: rgba(232, 179, 203);
+}
+
+section.positioned {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 800px;
+    box-shadow: 0 0 15px #333;
+}
+
+.container {
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+table {
+    /* border-spacing: 0; */
+    width: 100%;
+    text-align: center;
+}
+
+td+td {
+    border: 0px solid transparent;
+}
+
+td, th {
+    border: 0px solid transparent;
+    /* background: #ddd; */
+    color: #000;
+    padding: 10px 25px;
+}
+
+td {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+th {
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    white-space: nowrap;
+    font-style: oblique;
+    text-shadow: 1px 0 darkgray, 0 2px darkgray, 0px 0 darkgray, 0 -1px darkgray;
+}
+
+th div {
+    position: absolute;
+    background: transparent;
+    color: white;
+    padding: 9px 25px;
+    top: 0;
+    margin-left: -25px;
+    line-height: normal;
+    border: 0px solid transparent;
+    font-size: 17px;
+    text-shadow: 1px 0 darkgray, 0 2px darkgray, 0px 2px darkgray, 0 2px darkgray;
+    /* text-decoration: underline; */
+    text-underline-position: below;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(179, 230, 204);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255, 206, 217);
+}

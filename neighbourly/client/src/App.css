@@ -1,0 +1,22 @@
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #e6ecf0;
+    background-image: linear-gradient(to left, lightgray, rgb(255, 206, 217));
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}

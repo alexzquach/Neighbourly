@@ -1,0 +1,106 @@
+.mainBanner {
+    display: block;
+    background-color: lightgrey;
+    margin-left: 0px;
+    padding: 20px 100px 20px 20px;
+    position: relative;
+    background-image: linear-gradient(to right, lightgray, rgba(79, 189, 147));
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    vertical-align: middle;
+}
+
+.bannerText {
+    font-style: oblique;
+    vertical-align: middle;
+    text-shadow: 1px 0 darkgray, 0 2px darkgray, 0px 0 darkgray, 0 -1px darkgray;
+}
+
+.subBannerLeft {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgba(79, 189, 147);
+    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subBannerFull {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(79, 189, 147);
+    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subBannerRight {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgba(79, 189, 147);
+    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+#addAPost {
+    width: 100%;
+}
+
+.subBannerButton {
+    float: right;
+    right: 50px;
+    vertical-align: middle;
+    background: lightgrey;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 3px 3px 3px;
+    box-sizing: border-box;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subBannerButton:hover {
+    color: white;
+    background-color: rgba(62, 130, 104);
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media all and (max-width:30em) {
+    .subBannerButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.subBannerLabel {
+    display: inline;
+}
+
+.halfSection {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    max-height: 100px;
+    position: relative;
+    vertical-align: top;
+}
+
+.subBannerButton.invisible, .halfSection.invisible, .subBannerRight.invisible, .subBannerLeft.invisible {
+    visibility: hidden;
+}
