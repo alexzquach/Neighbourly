@@ -1,4 +1,4 @@
-# team06 (PHASE2.TXT IS CONTAINED BELOW)
+# Created by Team 400 IQ
 
 ## Our Website URL:
 https://polar-reef-15536.herokuapp.com/
